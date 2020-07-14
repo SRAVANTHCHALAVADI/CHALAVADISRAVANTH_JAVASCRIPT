@@ -17,9 +17,10 @@ font-family:arial;
 <center><h1>Epam Registration</h1></center>
 <strong>
 <form action="" >
-First Name: </strong><input id="first" type="text" placeholder="Enter First Name" name="firstname" onchange="myFunction()"><br><br>
+First Name: </strong><input id="first" type="text" placeholder="Enter First Name" name="firstname" onchange="myFunction()" required><br><br>
 <strong>Last Name: </strong><input id="last" type="text" name="lastname" placeholder="Enter Last Name" onchange="myFunction2()"><br><br>
-<strong>Age: </strong><input id="age" type="text" placeholder="Enter Age (18+)" name="Age" onchange="myFunction3()"><br><br>
+<strong>Password : </strong><input id="pass" type="password" placeholder="Enter a password"  minlength="8" required><br><br>
+<strong>Age: </strong><input id="age" type="text" placeholder="Enter Age (18+)" name="Age" onchange="myFunction3()" required><br><br>
 <strong>Phone Number: </strong><input id="number" type="number" placeholder="Enter Phone Number" name="Number" onchange="myFunction4()" required><br><br>
 <strong>Email id: </strong><input id="mail" type="email" placeholder="Enter Email Address" name="mail"  required><br><br>
 
